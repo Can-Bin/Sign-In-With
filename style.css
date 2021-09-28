@@ -1,0 +1,84 @@
+#container{
+    text-align: center;
+    width: 600px;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(45deg, rgb(31, 9, 160), rgb(58, 201, 211),rgb(31, 9, 160), rgb(206, 58, 211) ) 1;
+    margin: 100px auto
+}
+
+#header{
+    width: 200px
+    text-align: center;
+}
+
+#header h3{
+    font-size: 30px;
+    color: rgb(61, 61, 61);
+}
+
+#navbar{
+    width: 200px
+    margin:  auto;
+    padding: 0px 50px 50px 10px;   
+}
+
+#navbar ul{
+    width: 400px;
+    margin: 10px auto 0px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+li #facebook{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(71, 71, 206)
+    
+}
+
+li #google{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#form{
+    width: 200px;
+    margin: 0 120px ;
+    text-align: left;
+    font-size: 15px;
+    
+}
+
+#form #name{
+    width: 200px;
+    height: 30px;
+}
+
+#form #pass{
+    width: 200px;
+    height: 30px;
+}
+
+span{
+    font-size: 10px;
+    color: gray;
+}
+
+#submit{
+    border: 1px solid gray;
+    width: 350px;
+    height: 60px;
+    font-size: 15px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    color: white;
+}
